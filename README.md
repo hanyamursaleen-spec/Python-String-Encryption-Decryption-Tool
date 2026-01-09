@@ -8,12 +8,12 @@ How Encryption Works
 A random number n is generated between 1 and 10.
 Each character in the input string is shifted n positions forward in the alphabet.
 The number n is converted into a letter based on its position in the English alphabet:
-1 → A
-2 → B
-3 → C
+1 → A,
+2 → B,
+3 → C,
 …
 A word starting with that letter is used as the encryption key.
-The encrypted string and the key word are returned.
+The encrypted string and the keyword are returned.
 
 EXAMPLE
 Input string:
@@ -24,21 +24,21 @@ Encrypted output:
 ITGCV
 
 Key generation:
-2nd alphabet letter → B
+2nd alphabet letter → B,
 Key word → ball
 
 Final Output:
-Encrypted Text: ITGCV
+Encrypted Text: ITGCV,
 Key: ball
 
 How Decryption Works:
-The encrypted string and the key word are provided as input.
-The first letter of the key word determines the shift value n.
-Each character is shifted n positions backward.
+The encrypted string and the keyword are provided as input.
+The first letter of the keyword determines the shift value n.
+Each character is shifted n positions backwards.
 The original message is recovered.
 
 Features
-Randomized encryption key
+Randomised encryption key
 Alphabet-based key representation
 Separate encryption and decryption functions
 Simple and readable Python logic
